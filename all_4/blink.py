@@ -19,8 +19,7 @@ COUNTER = 0
 TOTAL = 0
 ear =0
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('/home/wanchat/Python/data/'
-                                 'shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor(r'D:\code_thesis\code_thesis\shape_predictor_68_face_landmarks.dat')
 # indexes facial landmarks
 (l_Start, l_End) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 (r_Start, r_End) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
@@ -72,18 +71,18 @@ while True:
 
     cv2.rectangle(frame,(160,430),(480,470),(0,0,0),1)
     cv2.line(frame,(320,430),(320,470),(0,0,0),1)
-    # cv2.putText(frame, "Blinks: {}".format(TOTAL), (190, 460),
-    #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 1)
-    # cv2.putText(frame, "EAR: {:.2f}".format(ear), (352, 460),
-    #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 1)
+    cv2.putText(frame, "Blinks: {}".format(TOTAL), (190, 460),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 1)
+    cv2.putText(frame, "EAR: {:.2f}".format(ear), (352, 460),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 1)
 
-    fontpath = "/home/wanchat/Python/data/font/Roboto/Roboto-Medium.ttf"
-    font = ImageFont.truetype(fontpath, 23)
-    img_pil = Image.fromarray(frame)
-    draw = ImageDraw.Draw(img_pil)
-    draw.text((193, 440), "Blinks: {}".format(TOTAL), font=font, fill=(0, 255, 0, 0))
-    draw.text((352, 440),  "EAR: {:.2f}".format(ear), font=font, fill=(0, 255, 0, 0))
-    frame = np.array(img_pil)
+    # fontpath = "/home/wanchat/Python/data/font/Roboto/Roboto-Medium.ttf"
+    # font = ImageFont.truetype(fontpath, 23)
+    # img_pil = Image.fromarray(frame)
+    # draw = ImageDraw.Draw(img_pil)
+    # draw.text((193, 440), "Blinks: {}".format(TOTAL), font=font, fill=(0, 255, 0, 0))
+    # draw.text((352, 440),  "EAR: {:.2f}".format(ear), font=font, fill=(0, 255, 0, 0))
+    # frame = np.array(img_pil)
 
     cv2.imshow("Frame", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):

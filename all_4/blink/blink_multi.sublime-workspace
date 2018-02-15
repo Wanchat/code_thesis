@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"img_pil\tstatement"
+			],
+			[
+				"pr",
+				"print\tkeyword"
+			],
+			[
+				"fo",
+				"fontN\tfunction"
+			],
+			[
+				"re",
+				"rectangle\tfunction"
+			],
+			[
+				"int",
+				"int\tclass"
+			],
+			[
+				"de",
+				"detectMultiScale\tfunction"
+			],
+			[
+				"Argum",
+				"ArgumentParser\tclass"
+			],
+			[
+				"fac",
+				"face_cascade\tstatement"
+			],
+			[
+				"Arg",
+				"ArgumentParser\tclass"
+			],
+			[
+				"FO",
+				"FONT_HERSHEY_SIMPLEX\tinstance"
+			],
+			[
+				"des",
+				"destroyAllWindows\tfunction"
+			],
+			[
+				"wa",
+				"waitKey\tfunction"
+			],
+			[
+				"arg",
+				"args\tstatement"
+			],
+			[
+				"face",
+				"face_new\tstatement"
+			],
+			[
+				"fk",
+				"fk_face\tstatement"
+			],
+			[
+				"fon",
+				"FONT_HERSHEY_SIMPLEX\tinstance"
+			],
+			[
+				"cen",
+				"cen_y\tstatement"
+			],
+			[
+				"Re",
+				"return\tkeyword"
+			],
+			[
+				"f",
+				"frame\tstatement"
+			],
+			[
+				"COLOR_B",
+				"COLOR_BGR2GRAY\tinstance"
+			],
+			[
+				"ca",
+				"camera\tparam"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ina",
+				"Install Package Control"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wanchat/Python/THESIS/detect_age.py",
+		"/home/wanchat/Python/THESIS/detect_age_image.py",
+		"/home/wanchat/Python/THESIS/blink.py",
+		"/home/wanchat/Python/THESIS/help_cv.py",
+		"/home/wanchat/Python/THESIS/detect_distance.py",
+		"/home/wanchat/Python/THESIS/test_cam_2.py",
+		"/home/wanchat/Python/THESIS/man/test_detect.py",
+		"/home/wanchat/Python/THESIS/test_cam.py",
+		"/home/wanchat/Python/THESIS/man/test_network.py",
+		"/home/wanchat/Python/THESIS/man/train_network.py",
+		"/home/wanchat/Python/THESIS/man/os.py",
+		"/home/wanchat/Python/santa/test_network.py",
+		"/home/wanchat/Python/santa/train_network.py",
+		"/home/wanchat/Python/THESIS/image_url.txt",
+		"/home/wanchat/Python/THESIS/blink_multi.py",
+		"/home/wanchat/Python/THESIS/man/download_image.py",
+		"/home/wanchat/Python/learn/args.py",
+		"/home/wanchat/Python/data/haarcascades/haarcascade_frontalface_default.xml",
+		"/home/wanchat/Python/santa/lenet.py",
+		"/home/wanchat/Python/santa/download_image.py",
+		"/home/wanchat/Python/test/contron.py",
+		"/home/wanchat/Python/AR/P_3d_point.py",
+		"/home/wanchat/Python/AR/camera.py",
+		"/home/wanchat/Python/data/image/face_test_1.jpg",
+		"/home/wanchat/Python/THESIS/re_face.py",
+		"/home/wanchat/.config/sublime-text-3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/home/wanchat/.config/sublime-text-3/Packages/User/Flake8Lint.sublime-settings",
+		"/home/wanchat/Python/test/multi_2.py",
+		"/home/wanchat/Python/test/multi.py",
+		"/home/wanchat/Python/THESIS/sub.py",
+		"/home/wanchat/Dropbox/text.py",
+		"/home/wanchat/.config/sublime-text-3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/home/wanchat/Python/data/image/kf1c.jpg",
+		"/home/wanchat/Python/THESIS/facial_landmakes.py",
+		"/home/wanchat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/wanchat/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/wanchat/.config/sublime-text-3/Packages/User/python2.sublime-build",
+		"/home/wanchat/.config/sublime-text-3/Packages/User/python3.sublime-build"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"        model = load_model('/home/wanchat/Python/THESIS/man/woman_test_d.model')",
+			"model = load_model('/home/wanchat/Python/THESIS/man/woman_test_d.model')",
+			"        cv2.putText(frame, label, (x, y+h+10),  cv2.FONT_HERSHEY_SIMPLEX,\n            0.5, (0, 255, 0), 2)",
+			"image",
+			"man",
+			"woman",
+			"man",
+			"content",
+			"        f.write(r.content)\n",
+			"orig",
+			"input",
+			"frame",
+			"sasdjsasdjsasdjsasasdjsasdjsasdjsasdj",
+			"sasdjsasdjsasdjsasdj'l'",
+			"sasdjsasdjsasdjsasdj'l'sasdjsasdjsasd",
+			"l",
+			"sasdjsasdjsasdjsasdj",
+			"sasdjsasdjsasdjsasdj'l'",
+			"sasdj",
+			"cap",
+			"shape",
+			"mage = cv2.imread('/home/wanchat/Python/data/image/face_test_1.jpg')\ngray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)\nrects = detector(gray, 1)\nfor (i, rect) in enumerate(rects):\n    shape = predictor(gray, rect)\n    shape = face_utils.shape_to_np(shape)\n    (x, y, w, h) = face_utils.rect_to_bb(rect)\n    cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)\n\n    for num, (x, y) in enumerate(shape):\n        cv2.circle(image, (x, y), 1, (0, 0, 255), -1)\ncv2.imshow(\"Output\", image)\ncv2",
+			"enumerate",
+			"cv2",
+			" cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)",
+			"image",
+			"+ ",
+			"rect_to_bb",
+			" (",
+			"    \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "blink_multi.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Python/THESIS/man/train_network.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
